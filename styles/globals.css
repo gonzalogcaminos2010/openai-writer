@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+    @apply bg-green-500 tracking-wider w-full mt-8 text-center text-white font-bold cursor-pointer uppercase px-4 py-2 rounded-md block
+  }
+}
