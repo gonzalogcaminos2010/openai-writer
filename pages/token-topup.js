@@ -3,7 +3,8 @@ import { AppLayout } from "../components/AppLayout";
 export default function TokenTopup() {
     return (
       <div className="container">
-        <h1>this is the TokenTopup</h1>
+        <h1>Compra monedas para poder generar publicidad</h1>
+        <button className="btn btn-primary">Agregar Monedas</button>
       </div>
     )
   }
